@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context="com.example.pc.database.show_take_data_to_tasjeel"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:text="بحث"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/bt_search11"
+            android:onClick="open_show_data"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edsearsh11"
+            android:gravity="center_vertical|center"
+            android:layout_margin="8dp"
+            android:textStyle="normal|bold"
+            android:textSize="22sp"
+            android:background="@drawable/ship"
+            android:layout_height="50dp"
+            android:hint="بحث"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorLink="@color/colorPrimary"
+            android:textAlignment="viewEnd" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv22"
+        android:layout_width="match_parent"
+
+
+        android:layout_weight="0.58"
+        android:layout_height="30dp"
+        android:layout_gravity="center">
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:id="@+id/lin"
+    android:layout_height="wrap_content"
+    android:layout_width="350dp"
+    android:padding="20dp"
+    android:gravity="center"
+    android:weightSum="1"
+    android:background="@drawable/ship_reyceaclerview"
+    android:layout_marginTop="50dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.57"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:hint="Name"
+
+            android:id="@+id/edname1"
+            android:textAlignment="center"
+            android:background="@drawable/ship"
+            android:textColor="@android:color/black"
+
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:text="اسم العميل"
+            android:id="@+id/textView5"
+            android:background="@drawable/ship"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="115dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.57"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:hint="PHONE"
+
+            android:id="@+id/edphone1"
+            android:textAlignment="center"
+            android:background="@drawable/ship"
+            android:textColor="@android:color/black"
+
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:text="رقم التلفون"
+            android:id="@+id/textView13"
+            android:background="@drawable/ship"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:layout_height="51dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="115dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.57"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:hint="Card"
+
+            android:id="@+id/edcard1"
+            android:textAlignment="center"
+            android:background="@drawable/ship"
+            android:textColor="@android:color/black"
+
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:text="رقم البطاقة"
+            android:id="@+id/textView1"
+            android:background="@drawable/ship"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:layout_height="51dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="115dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.57"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:hint="gss"
+
+            android:id="@+id/edgas11"
+            android:textAlignment="center"
+            android:background="@drawable/ship"
+            android:textColor="@android:color/holo_red_dark"
+
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:text="عدد دبات الغاز"
+            android:id="@+id/textView12"
+            android:background="@drawable/ship"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:layout_height="51dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="115dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.57"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:hint="total"
+
+            android:id="@+id/edtotal121"
+            android:textAlignment="center"
+            android:background="@drawable/ship"
+            android:textColor="@android:color/black"
+
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:text="المبلغ الاجمالي"
+            android:id="@+id/textView14"
+            android:background="@drawable/ship"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:layout_height="51dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="115dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.57"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:hint="madfo"
+
+            android:id="@+id/edalmdfoa1"
+            android:textAlignment="center"
+            android:background="@drawable/ship"
+            android:textColor="@color/c"
+
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:text="المبلغ المدفوع"
+            android:id="@+id/textView4"
+            android:background="@drawable/ship"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:layout_height="51dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="115dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.57"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:hint="edalmtbgee1"
+            android:background="@drawable/ship"
+            android:textColor="@android:color/holo_red_dark"
+            android:id="@+id/edalmtbgee11"
+
+            android:textSize="20sp"
+            android:textAllCaps="false"
+
+
+            android:textStyle="normal|bold"
+            android:layout_height="50dp"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:text="المبلغ المتبقي "
+            android:id="@+id/textView3"
+            android:background="@drawable/ship"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="115dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

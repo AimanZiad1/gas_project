@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tasjeel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:orientation="vertical"
+    tools:context="com.example.pc.database.tasjeel_gas"
+    android:weightSum="1">
+
+    <TextView
+        android:text="الاسم"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+      android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+    android:layout_width="match_parent"
+        android:inputType="number"
+    android:ems="10"
+    android:id="@+id/ed_Name"
+        android:gravity="center_vertical|center"
+    android:layout_margin="8dp"
+        android:textSize="22sp"
+        android:background="@drawable/ship2"
+        android:layout_height="50dp"
+        android:enabled="false"
+        android:text="sss"
+       android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:text="رقم التلفون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:layout_margin="8dp"
+        android:textSize="22sp"
+        android:background="@drawable/ship2"
+        android:layout_height="50dp"
+        android:cursorVisible="false"
+        android:enabled="false"
+        android:id="@+id/ed_card"
+        android:text="sss"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:text="رقم البطاقة الشخصية"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+    android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edphone"
+        android:gravity="center_vertical|center"
+        android:layout_margin="8dp"
+        android:textSize="22sp"
+        android:background="@drawable/ship2"
+        android:layout_height="50dp"
+        android:cursorVisible="false"
+        android:enabled="false"
+        android:text="sss"
+      android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edtotal"
+            android:gravity="center_vertical|center"
+            android:layout_margin="8dp"
+            android:textStyle="normal|bold"
+            android:textSize="22sp"
+            android:background="@drawable/ship2"
+            android:layout_height="50dp"
+            android:hint="المبلغ الاجمالي"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:enabled="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edgas"
+            android:gravity="center_vertical|center"
+            android:layout_margin="8dp"
+            android:textStyle="normal|bold"
+            android:textSize="22sp"
+            android:background="@drawable/ship"
+            android:layout_height="50dp"
+            android:hint="عدد دبات الغاز"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_red_dark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edalmtbgee"
+            android:gravity="center_vertical|center"
+            android:layout_margin="8dp"
+            android:textStyle="normal|bold"
+            android:textSize="22sp"
+            android:background="@drawable/ship2"
+            android:layout_height="50dp"
+            android:hint="المبلغ المتبقي"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_red_dark"
+            android:enabled="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edalmdfoa"
+            android:gravity="center_vertical|center"
+            android:layout_margin="8dp"
+            android:textStyle="normal|bold"
+            android:textSize="22sp"
+            android:background="@drawable/ship"
+            android:layout_height="50dp"
+            android:hint="المبلغ المدفوع"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.07">
+
+        <Button
+
+            android:layout_marginTop="0dp"
+
+            android:text="اضافه"
+            android:layout_width="match_parent"
+            android:id="@+id/btadd1"
+            android:layout_weight="1"
+            android:background="@drawable/ship_button"
+            android:textColor="@android:color/background_light"
+            android:layout_margin="10dp"
+            android:onClick="add1"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:textSize="22sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center" />
+
+        <Button
+
+            android:layout_marginTop="0dp"
+
+            android:text="تعديل"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ship_button"
+            android:textColor="@android:color/background_light"
+            android:layout_margin="10dp"
+            android:onClick="update_tasgeel"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:textSize="22sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+
+            android:id="@+id/btupdae_tasgeel"
+            android:visibility="gone" />
+
+        <Button
+
+            android:layout_marginTop="0dp"
+
+            android:text="حذف"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ship_button"
+            android:textColor="@android:color/background_light"
+            android:layout_margin="10dp"
+            android:onClick="delet_tasgeel"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:textSize="22sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+             android:id="@+id/btdelet_tasgeel"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

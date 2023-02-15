@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alwajah__alraeeseeh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+    android:orientation="vertical"
+    tools:context="com.example.pc.database.Alwajah_Alraeeseeh"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:background="@drawable/ship_lyout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+
+
+        android:paddingTop="100dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/download"
+            android:id="@+id/imageView"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:onClick="opentagreer"
+            android:text="تقارير عن الغاز"
+            android:layout_width="120dp"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:background="@drawable/ship_button"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_margin="12dp"
+            android:layout_height="110dp"
+              />
+
+        <Button
+            android:background="@drawable/ship_button"
+            android:text="تسجيل الغاز"
+            android:onClick="open_show_data"
+            android:layout_width="120dp"
+            android:id="@+id/bt_tasjeel"
+            android:layout_weight="1"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_margin="12dp"
+            android:layout_height="110dp"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <Button
+            android:background="@drawable/ship_button"
+            android:text="اضافة حساب"
+            android:id="@+id/btadd"
+            android:layout_weight="1"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="22sp"
+
+            android:layout_margin="12dp"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            tools:ignore="ButtonStyle,HardcodedText"
+            />
+    </LinearLayout>
+</LinearLayout>
